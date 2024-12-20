@@ -1,7 +1,7 @@
 # PinkamenaHUD
 //STILL AN WORK IN PROGRESS//
 
-This HUD its made from Scratch.
+This HUD its an heavy modification of ToonHUD.
 
 PinkamenaHUD is an Custom HUD for Team Fortress 2, Heavily inspired by My Little Pony.
 
