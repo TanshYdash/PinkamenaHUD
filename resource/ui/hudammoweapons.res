@@ -149,8 +149,8 @@
 		"wide_minmode"	"124"
 		"tall"			"50"
 		"tall_minmode"	"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
 	}	
