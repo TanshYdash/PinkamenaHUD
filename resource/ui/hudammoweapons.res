@@ -158,13 +158,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"AmmoNoClipShadow"
-		"xpos"			"720" 
-		"ypos"			"400"
+		"xpos"			"770" 
+		"ypos"			"405"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../vgui/replay/thumbnails/bomo2"
 		"scaleImage"	"1"	
 	}									
