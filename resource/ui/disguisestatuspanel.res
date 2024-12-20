@@ -30,9 +30,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
-		"ypos"			"27" // 1 CTID
-		"zpos"			"0" // 2 CTID
+		"xpos"			"200"
+		"ypos"			"0" // 1 CTID
+		"zpos"			"-1" // 2 CTID
 		"wide"			"180"
 		"tall"	 		"28"
 		"autoResize"	"0"
@@ -63,7 +63,7 @@
 		"tall"	 				"28"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1" // 3 CTID
+		"visible"				"0" // 3 CTID
 		"enabled"				"1"
 		"paintbackground"		"1"
 		"bgcolor_override"		"G_CustomTargetID"
@@ -74,7 +74,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"G_FontSmall_2"
-		"xpos"				"28"
+		"xpos"				"225"
 		"ypos"				"4"
 		"zpos"				"1"
 		"wide"				"140"
@@ -96,7 +96,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"G_FontSmall_2"
-		"xpos"				"29"
+		"xpos"				"225"
 		"ypos"				"5"
 		"zpos"				"1"
 		"wide"				"140"
@@ -119,7 +119,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
 		"font"				"DefaultVerySmall"
-		"xpos"				"28"
+		"xpos"				"235"
 		"ypos"				"12"
 		"zpos"				"1"
 		"wide"				"140"
@@ -141,7 +141,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabelShadow"
 		"font"				"DefaultVerySmall"
-		"xpos"				"29"
+		"xpos"				"235"
 		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"140"
@@ -162,29 +162,22 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"1" // 1 CTHB
-		"ypos"						"1" // 1 CTHB
-		"wide"						"27" // 2 CTHB
-		"tall"						"27" // 2 CTHB
+		"xpos"						"202" // 1 CTHB
+		"ypos"						"3" // 1 CTHB
+		"wide"						"23" // 2 CTHB
+		"tall"						"23" // 2 CTHB
 		"visible"					"1"
 		"enabled"					"1"	
-		"HealthBonusPosAdj"			"10" // 3 CTHB
+		"HealthBonusPosAdj"			"0" // 3 CTHB
 		"HealthDeathWarning"		"0.49"
 		"TFFont"					"G_FontTiny"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"G_White"
-		"paintborder"				"0" // 4 CTHB
-		"paintbackground"			"0" // 4 CTHB
+		"paintborder"				"1" // 4 CTHB
+		"paintbackground"			"1" // 4 CTHB
 		"border"					"G_HealthBorder"
 		"bgcolor_override"			"G_HealthBarBg"
 		"autoResize"				"0"
 	}	
 	
 }
-
-
-
-
-
-
-
