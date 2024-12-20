@@ -43,16 +43,15 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
-	Animate	G_PlayerStatusHealthValue	FgColor			"G_LowHealthValue"				Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"		Linear 0.2 0.4
-	
-	RunEvent HudHealthDyingPulseLoop	0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthImageBG 	Alpha		"0"		Linear 0.0 0.0
+	RunEvent HudHealthDyingPulseLoop	0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	Animate	G_PlayerStatusHealthValue	FgColor			"G_HealthValue"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthImageBG 	Alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.0
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
