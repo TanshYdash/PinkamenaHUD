@@ -7,7 +7,7 @@ Scheme
 	{
 		// ToonHUD colors
 		
-		"G_Highlight"			"213 55 219 255" // Highlight color
+		"G_Highlight"			"158 95 150 255" // Highlight color
 		"G_White"				"255 255 255 255"
 		"G_Black"				"0 0 0 255"
 		"G_Red"					"230 0 0 255"
@@ -60,7 +60,7 @@ Scheme
 		"G_TeamButtonRed"			"189 58 58 100"
 		"G_TeamButtonBlueArmed"		"111 142 160 255"
 		"G_TeamButtonRedArmed"		"209 78 78 255"		
-		"G_Footer"					"126 11 113 255" // Menu footer color
+		"G_Footer"					"75 24 68 255" // Menu footer color
 		"G_DimmFooter"				"28 23 19 200" // Dimm Menu footer color
 		"G_FooterText"				"255 255 255 255" // Footer text color
 		"G_DimmFooterText"			"255 255 255 120" // Dimm Footer text color
@@ -72,24 +72,24 @@ Scheme
 		"G_CustomHealthValue"		"120 120 120 255"
 		"G_MainMenuOverlay"			"0 0 0 0" // Main Menu overlay color
 		"G_MainMenuPanel"			"28 23 19 255" // Main Menu panel color
-		"G_MainMenuButton"			"213 55 219 255" // Main Menu button color
+		"G_MainMenuButton"			"158 95 150 255" // Main Menu button color
 		"G_MainMenuButtonHover"		"126 11 113 255" // Main Menu hovered button color
 		"G_MainMenuButtonFg"		"38 30 22 255" // Main Menu button text color
 		"G_MainMenuButtonHoverFg"	"255 255 255 255" // Main Menu hovered button text color
 		"G_MainMenuShader" 			"0 0 0 0" // Main Menu shader color
 		"G_BackpackItemBg"			"55 50 45 255" // Backpack item bg color
 		"G_LoadoutItemBg"			"52 47 42 255" // Loadout item bg color
-		"G_MenuBg"					"126 11 113 255" // Menu bg color
+		"G_MenuBg"					"64 0 56 255" // Menu bg color
 		"G_MenuText"				"255 255 255 255" // Menu text color
 		"G_InputText"				"0 0 0 240" // Input text color
 		"G_DimmInputText"			"0 0 0 100" // Dimm Input text color
 		"G_DimmMenuText"			"255 255 255 120" // Dimm Menu text color
 		"G_ItemDescriptionPanelBg"	"24 22 20 255" // Item description panel bg
-		"G_ButtonBg"				"126 11 113 255" // Button bg color
+		"G_ButtonBg"				"57 2 50 255" // Button bg color
 		"G_ButtonText"				"255 255 255 255" // Button text color
-		"G_ButtonHoverBg"			"255 108 238 255" // Button hover bg color
+		"G_ButtonHoverBg"			"158 95 150 255" // Button hover bg color
 		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
-		"G_ButtonSelectedBg"		"255 1 212 255" // Button selected bg color
+		"G_ButtonSelectedBg"		"146 0 121 255" // Button selected bg color
 		"G_ButtonSelectedText"		"255 255 255 255" // Button selected text color
 		"G_MiniButtonBg"			"50 50 50 255" // Mini button bg color
 		"G_MiniButtonHoverBg"		"10 10 10 255" // Mini button hover bg color
@@ -115,7 +115,7 @@ Scheme
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"213 55 219 255" // Highlight color
+		"TFOrange"			"158 95 150 255" // Highlight color
 		
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -480,7 +480,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-		Slider.NobColor				"213 55 219 255" // Highlight color
+		Slider.NobColor				"158 95 150 255" // Highlight color
 		Slider.TextColor			"255 255 255 255" // Menu text color
 		Slider.TrackColor			"255 255 255 255" // Menu text color
 		Slider.DisabledTextColor1	"255 255 255 120" // Dimm Menu text color
