@@ -74,15 +74,15 @@ zombie_spy
 // SMISSMASS / INVASION
 
 saxton_smissmas2017_title
-xms2011_scout
-xms2011_soldier
-xms2011_pyro
-xms2011_demoman
-xms2011_heavy
-xms2011_engineer
-xms2011_medic
-xms2011_sniper
-xms2011_spy
+xmas2011_scout
+xmas2011_soldier
+xmas2011_pyro
+xmas2011_demoman
+xmas2011_heavy
+xmas2011_engineer
+xmas2011_medic
+xmas2011_sniper
+xmas2011_spy
 invasion_title
 
 // GUN METTLE / JUNGLE INFERNO
@@ -95,7 +95,16 @@ saxton_jungle_inferno_title
 
 // COMMUNITY
 
-hwn2024_hale
-hwn2024_upgrades
+hwn24_hale
+hwn24_upgrades
 xms2023_krampus
 xms2024_hale
+
+
+
+
+
+
+
+
+
