@@ -95,16 +95,7 @@ saxton_jungle_inferno_title
 
 // COMMUNITY
 
-hwn24_hale
-hwn24_upgrades
+hwn2024_hale
+hwn2024_upgrades
 xms2023_krampus
 xms2024_hale
-
-
-
-
-
-
-
-
-
