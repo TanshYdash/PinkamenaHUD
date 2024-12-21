@@ -13,59 +13,50 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"1" [$WINDOWS]
-		"settitlebarvisible"	"1" [!$WINDOWS]
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0" [$WINDOWS]
-		"infocus_bgcolor_override"		"46 43 42 0" [$WINDOWS]
-		"outoffocus_bgcolor_override"	"46 43 42 0" [$WINDOWS]
-		"bgcolor_override"				"46 43 42 255" [!$WINDOWS]
-		"infocus_bgcolor_override"		"46 43 42 255" [!$WINDOWS]
-		"outoffocus_bgcolor_override"	"46 43 42 255" [!$WINDOWS]
-		
-		"title"			""
-		"title_font"	"G_FontNone"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
-		
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"0"
 	}
-	
-	"BackgroundHeader"
+
+	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundHeader"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"44"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuBg" // "G_Footer"
-		"paintborder"	"0"
-		"border"		"G_MenuHeader"
+		"image"			"replay\thumbnails\background_loadout"
+		"tileImage"		"0"
 	}
 	
-	"BackgroundFooter"
+	"BackgroundHeader"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
-		"ypos"			"r46"
-		"zpos"			"1"
+		"ypos"			"2"
+		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"46"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_Footer"
-	}	
+		"image"			"replay\thumbnails\background_loadout_header"
+		"tileImage"		"0"
+	}
+	
+	"Footer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Footer"
+		"xpos"			"0"
+		"ypos"			"445"
+		"zpos"			"-2"
+		"fillcolor"		"75 24 68 255"
+		"wide"			"f0"
+		"tall"			"50"
+		"scaleImage"	"1"
+	}
 	
 	"FooterLine"
 	{
@@ -76,59 +67,18 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"paintbackground"	"1"
 		"bgcolor_override"	"G_Highlight"
 	}			
-	
-	"Sheet"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"10"
-		"tabwidth"		"150"
-		"tabheight"		"15"
-		"yoffset"		"14"
-		"transition_time" 	"0"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuBg"
 		
-		"HeaderLine"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"13"
-			"zpos"			"2"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintbackground"	"1"
-			"bgcolor_override"	"G_Highlight"
-		}
-		
-		"tabskv"
-		{
-			"textinsetx"		"20"
-			"font"				"G_FontTiny"
-			"selectedcolor"		"255 255 255 255"
-			"unselectedcolor"	"G_MenuText"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"HighlightBg"
-			"normalborder_override" "NoBorder"
-		}
-	}
-	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-288"
-		"ypos"			"r35"
+		"ypos"			"450"
 		"zpos"			"2"
 		"wide"			"135"
 		"tall"			"25"

@@ -30,6 +30,21 @@
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
+
+	"G_MenuBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"G_MenuBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\G_MenuBg"
+		"tileImage"		"1"
+	}
 		
 		"modelpanels_kv"
 		{

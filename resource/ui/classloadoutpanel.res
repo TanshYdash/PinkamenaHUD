@@ -13,10 +13,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"G_MenuBg"
-		"infocus_bgcolor_override" "G_MenuBg"
-		"outoffocus_bgcolor_override" "G_MenuBg"
 		
 		"item_xpos_offcenter_a"	"-340"
 		"item_xpos_offcenter_b"	"190"
@@ -32,6 +28,21 @@
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
+
+	"G_MenuBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"G_MenuBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\G_MenuBg"
+		"tileImage"		"1"
+	}
 		
 		"modelpanels_kv"
 		{

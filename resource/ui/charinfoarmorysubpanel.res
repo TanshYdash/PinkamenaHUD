@@ -28,6 +28,21 @@
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
+
+	"G_MenuBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"G_MenuBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\G_MenuBg"
+		"tileImage"		"1"
+	}
 		
 		"thumbnail_modelpanels_kv"
 		{

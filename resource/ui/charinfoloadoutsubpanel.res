@@ -15,10 +15,6 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"G_MenuBg"
-		"infocus_bgcolor_override" "G_MenuBg"
-		"outoffocus_bgcolor_override" "0 255 0 255"
 		
 		"selectlabely_default"		"0"
 		"selectlabely_onchanges"	"0"

@@ -39,6 +39,21 @@
 		"page_button_y_delta" "2"
 		"page_button_per_row" "20"
 		"page_button_height" "14"
+
+	"G_MenuBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"G_MenuBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\G_MenuBg"
+		"tileImage"		"1"
+	}
 		
 		"pagebuttons_kv"
 		{
