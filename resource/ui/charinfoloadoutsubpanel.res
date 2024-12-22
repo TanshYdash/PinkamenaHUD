@@ -2191,7 +2191,7 @@
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"/replay/thumbnails/class_selection/G_ClassScout"
+				"image"			"../vgui/replay/thumbnails/class_selection/G_ClassScout"
 				"scaleImage"	"1"
 			}				
 		}	

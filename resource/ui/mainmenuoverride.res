@@ -1,26 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-
-	"PinkamenaHUDlabel"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PinkamenaHUDlabel"
-		"font"			"HudFontMediumBold"
-		"fgcolor_override"				"75 24 68 255"
-		"border_default"				"NoBorder"
-		"border_armed"					"NoBorder"
-		"paintbackground"				"0"
-		"labelText"		"PinkamenaHUD"
-		"xpos"			"70"
-		"ypos"			"20"
-		"wide"			"250" //250
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -261,21 +240,20 @@
 		}
 	}
 					
-	"TFLogoImage"
+	"PinkamenaHUDLabel"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TFLogoImage"
-		"xpos"				"30"
-		"ypos"				"32"
-		"zpos"				"1"
-		"wide"				"160"
-		"tall"				"40"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../logo/new_tf2_logo"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PinkamenaHUDLabel"
+		"xpos"			"60" 
+		"ypos"			"8"
+		"zpos"			"4"
+		"wide"			"180"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/logo/HudLabel"
 		"scaleImage"		"1"
-		"mouseinputenabled"	"0"
-	}
+	}	
 	
 	"TFCharacterImage"
 	{

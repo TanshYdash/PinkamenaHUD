@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/logo/HudLabel"
+	"$translucent" 1
+}
