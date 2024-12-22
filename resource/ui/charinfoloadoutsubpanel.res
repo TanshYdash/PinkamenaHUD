@@ -2171,7 +2171,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"loadout scout"
-			
+
 			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "G_MenuBg"
@@ -2186,12 +2186,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/scout"
+				"image"			"/replay/thumbnails/class_selection/G_ClassScout"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2234,12 +2234,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/soldier"
+				"image"			"/replay/thumbnails/class_selection/G_ClassSoldier"
 				"scaleImage"	"1"
 			}				
 		}
@@ -2282,60 +2282,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/pyro"
-				"scaleImage"	"1"
-			}				
-		}	
-
-		"G_Pyro"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"G_Pyro"
-			"xpos"			"c-170"
-			"ypos"			"60"
-			"zpos"			"10"
-			"wide"			"60"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"loadout pyro"
-			
-			"defaultFgColor_override" "G_MenuBg"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "G_MenuBg"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"60"
-				"tall"			"60"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"class_portraits/pyro"
+				"image"			"/replay/thumbnails/class_selection/G_ClassPyro"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2378,12 +2330,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/demoman"
+				"image"			"/replay/thumbnails/class_selection/G_ClassDemo"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2426,12 +2378,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/heavy"
+				"image"			"/replay/thumbnails/class_selection/G_ClassHeavy"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -2474,12 +2426,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/engineer"
+				"image"			"/replay/thumbnails/class_selection/G_ClassEngineer"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2522,12 +2474,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/medic"
+				"image"			"/replay/thumbnails/class_selection/G_ClassMedic"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2570,12 +2522,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/sniper"
+				"image"			"/replay/thumbnails/class_selection/G_ClassSniper"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2618,12 +2570,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"14"
 				"wide"			"60"
 				"tall"			"60"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"class_portraits/spy"
+				"image"			"/replay/thumbnails/class_selection/G_ClassSpy"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -2815,39 +2767,5 @@
 			"wrap"			"1"
 			"fgcolor" 		"G_MenuText"
 			"centerwrap"	"1"
-		}
-		
-		"Wall_Classes"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"Wall_Classes"
-			"xpos"			"0"
-			"ypos"			"50"
-			"zpos"			"-5"		
-			"wide"			"f0"
-			"tall"			"95"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintbackground"	"1"
-			"bgcolor_override"	"G_MenuShader"
-		}
-		
-		"Wall_Backpack_etc"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"Wall_Backpack_etc"
-			"xpos"			"0"
-			"ypos"			"235"
-			"zpos"			"-5"		
-			"wide"			"f0"
-			"tall"			"95"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintbackground"	"1"
-			"bgcolor_override"	"G_MenuShader"
 		}
 }
