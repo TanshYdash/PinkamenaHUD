@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/loadouts/bg_heavy"
+	"$translucent" 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/loadouts/bg_pyro"
+	"$translucent" 1
+}
