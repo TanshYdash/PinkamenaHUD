@@ -1,4 +1,4 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "vgui/replay/thumbnails/class_selection/G_ClassSniper"
 	"$translucent" 1
