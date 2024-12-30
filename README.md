@@ -1,5 +1,5 @@
 # PinkamenaHUD
-VERSION 1.0 JUST RELEASED!!!
+VERSION 1.0.1 JUST RELEASED!!!
 
 This HUD its an heavy modification of ToonHUD.
 
